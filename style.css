@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.board{
+    
+    width: 600px;
+    background-color: rgb(73, 190, 190);
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+     
+}
+
+.node{
+    width:12.5%;
+    aspect-ratio: 1;
+}
+
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
+.active{
+    border: 5px solid red;
+}
+.possible{
+    background-color: green;
+}
